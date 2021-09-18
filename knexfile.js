@@ -8,6 +8,6 @@ module.exports = {
     },
     production: {
         client: 'pg',
-        connection: process.env.DATABASE_URL,
+        connection: 'https://slmedforum-db.herokuapp.com/',
     },
 };
