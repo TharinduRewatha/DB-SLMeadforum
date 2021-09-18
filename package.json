@@ -1,0 +1,25 @@
+{
+    "name": "DB-SLMedforum",
+    "version": "1.0.0",
+    "description": "This is the database for Sri Lanka medical forum",
+    "main": "index.js",
+    "scripts": {
+        "satrt": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TharinduRewatha/DB-SLMedforum.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/TharinduRewatha/DB-SLMedforum/issues"
+    },
+    "homepage": "https://github.com/TharinduRewatha/DB-SLMedforum#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "knex": "^0.95.11",
+        "pg": "^8.7.1"
+    }
+}
